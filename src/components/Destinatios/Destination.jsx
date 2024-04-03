@@ -50,7 +50,6 @@ function Destination() {
                         <FaChevronRight />
                     </div>
                 </div>
-
             </Swiper>
         </div>
     )
