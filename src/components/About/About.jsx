@@ -2,7 +2,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 function About() {
     return (
         <div className="px-20 text-white w-full h-[70vh]  bg-[#0F1922]">
-            <div className="-translate-y-20 flex justify-center items-center">
+            <div className="-translate-y-20 flex justify-center items-center" id="about">
                 <div className="flex w-[50%]">
                     <div className="pe-4"><img src="/dive-1.png" alt="" /></div>
                     <div className="flex flex-col justify-between ">

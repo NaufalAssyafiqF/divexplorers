@@ -1,7 +1,7 @@
 import { CiMail } from "react-icons/ci";
 function Contactus() {
     return (
-        <div className="bg-[url(/dive-contactus.png)] bg-cover w-full h-[40vh] flex px-20 justify-between items-center" >
+        <div className="bg-[url(/dive-contactus.png)] bg-cover w-full h-[40vh] flex px-20 justify-between items-center" id="contact">
             <div className="text-white w-[40%]">
                 <h1 className="text-3xl font-bold">Contact us</h1>
                 <h3 className="text-xl">Dont hesitate to get in touch with us!</h3>

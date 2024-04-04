@@ -2,7 +2,7 @@ import { FaArrowRightLong } from "react-icons/fa6"
 
 function Packages() {
     return (
-        <div className="bg-[#012E4D] px-20 flex h-[100vh] pt-20">
+        <div className="bg-[#012E4D] px-20 flex h-[100vh] pt-20" id="packages">
             <div className="text-white w-[50%] pe-10">
                 <h1 className="text-3xl font-bold">Packages</h1>
                 <h3 className="text-xl mb-5">Choose your best packages</h3>

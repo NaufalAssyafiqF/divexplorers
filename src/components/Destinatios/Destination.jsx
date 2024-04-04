@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 
 function Destination() {
     return (
-        <div className="bg-[#0F1922] w-full px-20 pb-11">
+        <div className="bg-[#0F1922] w-full px-20 pb-11" id="destinations">
             <div className="text-white mb-12">
                 <h1 className="text-3xl font-bold mb-2">Destinations</h1>
                 <h3 className="text-xl">Explore the Oceans Mysteries</h3>

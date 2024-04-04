@@ -3,7 +3,7 @@ import { FaStarHalfAlt } from "react-icons/fa";
 import { dataTestimonial } from "../../data/data";
 function Testimonial() {
     return (
-        <div className="bg-[#0F1922]  px-20 pt-20">
+        <div className="bg-[#0F1922]  px-20 pt-20" id="testimonial">
             <h1 className="text-3xl text-white font-bold">Testimonial</h1>
             <h3 className="text-xl text-white mb-10">What our client say about us</h3>
             <div className="w-full h-[80%] flex justify-between">
