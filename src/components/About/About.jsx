@@ -4,10 +4,10 @@ function About() {
         <div className="px-20 text-white w-full h-[70vh]  bg-[#0F1922]">
             <div className="-translate-y-20 flex justify-center items-center" id="about">
                 <div className="flex w-[50%]">
-                    <div className="pe-4"><img src="/dive-1.png" alt="" /></div>
+                    <div className="me-4 overflow-hidden"><img src="/dive-1.png" alt="" className=" hover:scale-110 transition-all ease-in-out duration-500" /></div>
                     <div className="flex flex-col justify-between ">
-                        <div><img src="/dive-2.png" alt="" className="w-full h-full bg-cover" /></div>
-                        <div><img src="/dive-3.png" alt="" className="w-full h-full bg-cover" /></div>
+                        <div className="overflow-hidden "><img src="/dive-2.png" alt="" className="w-full h-full bg-cover hover:scale-110 transition-all ease-in-out duration-500" /></div>
+                        <div className="overflow-hidden "><img src="/dive-3.png" alt="" className="w-full h-full bg-cover hover:scale-110 transition-all ease-in-out duration-500" /></div>
                     </div>
                 </div>
                 <div className="w-[50%] ms-10">

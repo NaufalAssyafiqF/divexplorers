@@ -27,8 +27,8 @@ function Destination() {
                 className="mySwiper pb-10"
             >
                 <div className="w-full flex">
-                    {dataDestinations.map((item, index) => (
-                        <SwiperSlide key={index} className="w-[30%] h-[25rem]">
+                    {dataDestinations.map((item) => (
+                        <SwiperSlide key={item.title} className="w-[30%] h-[25rem]">
                             <div className="group w-full h-full relative overflow-hidden transition-all ease-in-out">
                                 <div className=" w-full h-full bg-cover group-hover:scale-110 duration-700" style={{ backgroundImage: `url(${item.img})` }}></div>
                                 <div className="w-full h-full absolute bottom-0 left-0 bg-gradient-to-t from-black group opacity-0 hover:opacity-100 duration-700">
